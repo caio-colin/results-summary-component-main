@@ -1,12 +1,14 @@
 body {
   font-family: "Hanken Grotesk", sans-serif;
+  
+}
+main{
   display: flex;
   padding: 20px;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-
 .container {
   display: flex;
   box-shadow: 10px 10px 50px -30px black;
@@ -117,21 +119,3 @@ body {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (max-width: 675px) {
-  body {
-    padding: initial;
-  }
-  .container {
-    flex-direction: column;
-    box-shadow: unset;
-    border-radius: unset;
-    max-width: unset;
-    min-width: unset;
-  }
-  .container .summary{
-    max-width: unset;
-  }
-  .container .result {
-    border-radius: 0 0 25px 25px;
-  }
-}

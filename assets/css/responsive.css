@@ -1,0 +1,26 @@
+@media (max-width: 675px) {
+  main {
+    padding: initial;
+    align-items: unset;
+  }
+  .container {
+    flex-direction: column;
+    box-shadow: unset;
+    border-radius: unset;
+    max-width: unset;
+    min-width: unset;
+  }
+  .container .result {
+    border-radius: 0 0 25px 25px;
+  }
+  .container .circle {
+    width: 150px;
+    height: 150px;
+  }
+  .result .descrition {
+  width: 260px;
+}
+  .container .summary{
+    max-width: unset;
+  }
+}
